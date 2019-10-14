@@ -59,8 +59,8 @@ In “matching2D_Student.cpp”, from line 47 to 67 the kNN distance ratio is se
 ## 7 - 9. Performance Evaluation
 All results using different detectors and descriptions are listed below. Each number is the calculation of the average value of 10 images / 9 matches. AKAZE detector functions only when descriptor is AKAZE as well and SIFT detector with ORB description leads to out of memory.
 
-```
-Pair (dete/desc) Keypoints befor sifting Matching points detection time description time
+| Pair (dete/desc) | Keypoints befor filtering | Matching points | detection time | description time |
+| SHITOMASI/BRIEF | 1205,3 | 104,889 | 15,1092 | 1.07367 |
 SHITOMASI/BRIEF 1205,3 104,889 15,1092 1,
 ```
 
