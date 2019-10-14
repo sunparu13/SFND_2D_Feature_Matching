@@ -57,58 +57,7 @@ In “matching2D_Student.cpp” under the function “matchDescriptors”, all m
 In “matching2D_Student.cpp”, from line 47 to 67 the kNN distance ratio is set so as to choose the best match pair.
 
 ## 7 - 9. Performance Evaluation
-All results using different detectors and descriptions are listed below. Each number is the calculation of the average value of 10 images / 9 matches. AKAZE detector functions only when descriptor is AKAZE as well and SIFT detector with ORB description leads to out of memory.
-
-| Pair (dete/desc) | Keypoints befor filtering | Matching points | detection time | description time |
-| SHITOMASI/BRIEF | 1205,3 | 104,889 | 15,1092 | 1.07367 |
-SHITOMASI/BRIEF 1205,3 104,889 15,1092 1,
-```
-
-### SHITOMASI/ORB 1205,49 100,889 15,13 0,
-
-### SHITOMASI/FREAK 1205,3 85,3333 11,8317 36,
-
-### SHITOMASI/SIFT 1205,3 103 11,2861 14,
-
-### HARRIS/BRIEF 162,2 19,2222 14,8188 0.
-
-### HARRIS/ORB 162,2 18 13.8563 0,
-
-### HARRIS/FREAK 162,2 16 13.3987 37,
-
-### HARRIS/SIFT 162,2 18,1111 14,3657 13,
-
-### FAST/BRIEF 1605 122,111 0,998591 0,
-
-### FAST/ORB 1605,19 119 0,989643 1,
-
-### FAST/FREAK 1605 97,5556 1,06077 38,
-
-### FAST/SIFT 1605 116,222 1,02011 18,
-
-### BRISK/BRIEF 2435,9 189,333 341,842 1,
-
-### BRISK/ORB 2436,09 168,222 342,885 4,
-
-### BRISK/FREAK 2435,9 169,333 339,797 38,
-
-### BRISK/SIFT 2435,9 182,889 338,409 39,
-
-### ORB/BRIEF 450,19 60,5556 6,78207 0,
-
-### ORB/ORB 450,19 84,7778 6.77465 4,
-
-### ORB/FREAK 450 46,6667 6,76251 37,
-
-### ORB/SIFT 450,19 84,7778 6,91717 50.
-
-### SIFT/BRIEF 1242,4 78 123,975 0,
-
-### SIFT/FREAK 1242,4 65,8889 120,269 38,
-
-### SIFT/SIFT 1242,4 88,8889 113,497 87,
-
-### AKAZE/AKAZE 1207,8 139,889 69,717 60,
+All results using different detectors and descriptions are listed below. Each number is the calculation of the average value of 10 images / 9 matches. AKAZE detector functions only when descriptor is AKAZE as well and SIFT detector with ORB description leads to out of memory. All results are documented in the file "uda_2d.xlsx".
 
 The best three detectors which detect most key points (before target sifting) are:
 1. BRISK
